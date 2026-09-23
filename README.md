@@ -1,5 +1,7 @@
 ZodiAI QVAC
 
+===========
+
 
 
 A local AI zodiac companion powered by Tether QVAC.
@@ -8,6 +10,8 @@ A local AI zodiac companion powered by Tether QVAC.
 
 ABOUT
 
+\-----
+
 
 
 ZodiAI calculates a user's zodiac sign from their birthday and generates a personalized zodiac reading using on-device AI.
@@ -15,6 +19,8 @@ ZodiAI calculates a user's zodiac sign from their birthday and generates a perso
 
 
 FEATURES
+
+\--------
 
 
 
@@ -33,6 +39,8 @@ No cloud AI API required
 
 
 QVAC INTEGRATION
+
+\----------------
 
 
 
@@ -62,6 +70,8 @@ The AI inference runs locally through Tether QVAC.
 
 TECH STACK
 
+\----------
+
 
 
 JavaScript
@@ -78,6 +88,8 @@ Llama 3.2 1B
 
 REQUIREMENTS
 
+\------------
+
 
 
 Node.js 18+
@@ -87,6 +99,12 @@ npm
 
 
 INSTALLATION
+
+\------------
+
+
+
+Clone the repository:
 
 
 
@@ -98,11 +116,17 @@ cd zodiai-qvac
 
 
 
+Install dependencies:
+
+
+
 npm install
 
 
 
 RUN
+
+\---
 
 
 
@@ -114,7 +138,7 @@ node server.js
 
 
 
-In another terminal:
+In another terminal, start the frontend:
 
 
 
@@ -130,7 +154,13 @@ http://127.0.0.1:5173/
 
 
 
+Enter a birthday and click "Discover My Zodiac".
+
+
+
 HOW IT WORKS
+
+\------------
 
 
 
@@ -150,6 +180,8 @@ HOW IT WORKS
 
 NOTE
 
+\----
+
 
 
 Zodiac and astrology content is intended for entertainment and personal reflection. It is not presented as scientifically validated prediction.
@@ -157,6 +189,8 @@ Zodiac and astrology content is intended for entertainment and personal reflecti
 
 
 LICENSE
+
+\-------
 
 
 
