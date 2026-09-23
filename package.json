@@ -1,0 +1,18 @@
+{
+  "name": "zodiai-qvac",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@qvac/sdk": "^0.20.0",
+    "express": "^5.2.1"
+  }
+}
