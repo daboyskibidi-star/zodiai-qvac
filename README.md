@@ -1,88 +1,164 @@
-\# ZodiAI QVAC
+ZodiAI QVAC
 
 
 
-ZodiAI is a local AI zodiac companion that calculates a user's zodiac sign from their birthday and generates a personalized zodiac reading using Tether QVAC.
+A local AI zodiac companion powered by Tether QVAC.
 
 
 
-\## Features
+ABOUT
 
 
 
-\- Birthday-based zodiac sign detection
-
-\- Zodiac element display
-
-\- Personalized local AI reading
-
-\- Runs AI inference on-device
-
-\- Simple responsive interface
-
-\- No cloud AI API required
+ZodiAI calculates a user's zodiac sign from their birthday and generates a personalized zodiac reading using on-device AI.
 
 
 
-\## QVAC Integration
+FEATURES
 
 
 
-ZodiAI uses the Tether QVAC SDK (`@qvac/sdk`) version 0.20.0.
+Birthday-based zodiac sign detection
+
+Zodiac element display
+
+Personalized local AI reading
+
+On-device AI inference
+
+Responsive interface
+
+No cloud AI API required
 
 
 
-The app uses:
+QVAC INTEGRATION
 
 
 
-\- `loadModel()` to load the local Llama 3.2 1B model
-
-\- `completion()` to generate the zodiac reading
+SDK: @qvac/sdk 0.20.0
 
 
 
-The AI model runs locally through QVAC.
+QVAC functions used:
 
 
 
-\## Tech Stack
+loadModel()
+
+Loads the local Llama 3.2 1B model.
 
 
 
-\- JavaScript
+completion()
 
-\- Vite
-
-\- Express
-
-\- Tether QVAC
-
-\- Llama 3.2 1B local model
+Generates the personalized zodiac reading.
 
 
 
-\## Requirements
+The AI inference runs locally through Tether QVAC.
 
 
 
-\- Node.js 18+
-
-\- npm
+TECH STACK
 
 
 
-\## Installation
+JavaScript
+
+Vite
+
+Express
+
+Tether QVAC
+
+Llama 3.2 1B
 
 
 
-Clone the repository:
+REQUIREMENTS
 
 
 
-```bash
+Node.js 18+
 
-git clone YOUR\_REPOSITORY\_URL
+npm
+
+
+
+INSTALLATION
+
+
+
+git clone https://github.com/daboyskibidi-star/zodiai-qvac.git
+
+
 
 cd zodiai-qvac
+
+
+
+npm install
+
+
+
+RUN
+
+
+
+Start the QVAC server:
+
+
+
+node server.js
+
+
+
+In another terminal:
+
+
+
+npm run dev
+
+
+
+Open:
+
+
+
+http://127.0.0.1:5173/
+
+
+
+HOW IT WORKS
+
+
+
+1\. Enter a birthday.
+
+2\. ZodiAI calculates the zodiac sign locally.
+
+3\. The frontend sends the zodiac information to the local Express server.
+
+4\. The server loads the QVAC local model.
+
+5\. QVAC completion() generates the reading.
+
+6\. The reading appears in the browser.
+
+
+
+NOTE
+
+
+
+Zodiac and astrology content is intended for entertainment and personal reflection. It is not presented as scientifically validated prediction.
+
+
+
+LICENSE
+
+
+
+MIT License.
 
